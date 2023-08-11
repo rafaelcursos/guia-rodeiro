@@ -7,10 +7,10 @@ img{
     width: 100%;
 }
 header{
-    background-color: rgb(9, 8, 95);
+    background-color: rgb(4, 0, 253);
 }
 .header{
-    height: 400px;
+    height: 200px;
     width: 100%;
     background-image: url('../images/header.jpg');
     background-position: center;
@@ -24,7 +24,7 @@ span {
     font-size: 1.5rem;
 }
 .header-text{
-    height: 400px;
+    height: 200px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -139,10 +139,12 @@ h2 {
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 9s;
+  animation-duration: 10s;
 }
 
 @keyframes fade {
-  from {opacity: .8}
-  to {opacity: 1}
+    0%{opacity: 0;}
+    5%{opacity: 1;}
+    95%{opacity: 1;}
+    100%{opacity: 0;}
 }
