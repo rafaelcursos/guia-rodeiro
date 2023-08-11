@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.header{
+    height: 400px;
+    width: 100%;
+    background-image: url('../images/header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+span {
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.header-text{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: aliceblue;
+}
+.row {
+    margin: 0;
+}
+.agosto{
+    background-color: darkorange;
+}
+
+.setembro{
+    background-color: darkcyan;
+}
+
+.outubro{
+    background-color: darkmagenta;
+}
+
+.novembro{
+    background-color: darkviolet;
+}
+
+.dezembro{
+    background-color: darkred;
+}
+
+h2 {
+    color: aliceblue;
+}

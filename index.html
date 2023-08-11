@@ -4,118 +4,330 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/slideshow.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-    <title>Guia Comercial de Rodeiro</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Farmácias de plantão em Rodeiro</title>
 </head>
 
 <body>
     <header>
-        <div id="menu-container">
-            <a id="logo" href="#">Logo</a>
-            <nav id="nav">
-                <button id="btn-menu">Menu</button>
-                <ul id="menu">
-                    <li>
-                        <a href="./index.html">Início</a>
-                    </li>
-                    <li>
-                        <a href="./farmacias.html">Farmácias</a>
-                    </li>
-                    <li>
-                        <a href="./taxis.html">Táxis</a>
-                    </li>
-                    <li>
-                        <a href="./postoSaude.html">Postos de Saúde</a>
-                    </li>
-                    <li>
-                        <a href="./hospitais.html">Hospitais</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-
-        <!-- Começo do Hero -->
-        <div class="hero">
-            <div class="texto">
-                <h1>Guia Comercial de Rodeiro!</h1>
-                <p>Encontre telefones, endereços e serviços das empresas de Rodeiro.</p>
+        <div class="row header">
+            <div class="col-12 header-text p-2">
+                <h1 class="display-2 text-center">Farmácias de Plantão em Rodeiro</h1>
             </div>
         </div>
-        <!-- Fim do Hero -->
+        <img class="img-fluid" src="./videos/banner.gif" alt="">
     </header>
+
     <main>
-        <!-- slide show -->
-        <section class="slides">
-            <div class="slideshow-container">
 
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 3</div>
-                    <img src="./assets/images/slide1.jpg" style="width:100%">
+            <section class="agosto">
+            <div class="row p-2">
+                <h2 class="display-3 py-2">Mês de Agosto</h2>
+
+                <!-- Primeira semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2 ">
+                    <div class="card">
+                        <img src="images/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Santo Antônio</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="mySlides fade">
-                    <div class="numbertext">2 / 3</div>
-                    <img src="./assets/images/slide2.jpg" style="width:100%">
+                <!-- segunda semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2 ">
+                    <div class="card">
+                        <img src="images/2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Vila Tereza</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 3</div>
-                    <img src="./assets/images/slide3.jpg" style="width:100%">
+                <!-- terceira semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2 ">
+                    <div class="card">
+                        <img src="images/3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Silveira Drogarias</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
+                    </div>
                 </div>
+
+
+                <!-- quarta semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2 ">
+                    <div class="card">
+                        <img src="images/4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Silveira Drogarias</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
-        <!-- Cards com as utilidades -->
-        <section class="utilidades">
-            <div class="row">
-                <div class="col">
+            <!-- Mes de setembro -->
+            <section class="setembro">
+            <div class="row p-2">
+                <h2 class="display-3 py-2">Mês de Setembro</h2>
+
+                <!-- Primeira semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2">
                     <div class="card">
-                        <img class="card-img" src="./assets/images/slide1.jpg" alt="">
-                        <h4>Farmácias</h4>
-                        <p>Veja aqui todas as farmácias de Rodeiro e as que estão de plantão.</p>
-                        <a href="#" class="btn">Ver informações</a>
+                        <img src="images/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Santo Antônio</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col">
+
+                <!-- segunda semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2 ">
                     <div class="card">
-                        <img class="card-img" src="./assets/images/slide2.jpg" alt="">
-                        <h4>Táxis</h4>
-                        <p>Veja aqui as informáções dos táxis disponíveis em Rodeiro.</p>
-                        <a href="#" class="btn">Ver informações</a>
+                        <img src="images/2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Vila Tereza</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col">
+
+                <!-- terceira semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2 ">
                     <div class="card">
-                        <img class="card-img" src="./assets/images/slide1.jpg" alt="">
-                        <h4>Postos de Saúde</h4>
-                        <p>Telefones do posto de saúde e dos PSF`s de Rodeiro.</p>
-                        <a href="#" class="btn">Ver informações</a>
+                        <img src="images/3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Silveira Drogarias</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col">
+
+
+                <!-- quarta semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2 ">
                     <div class="card">
-                        <img class="card-img" src="./assets/images/slide2.jpg" alt="">
-                        <h4>Hospitais</h4>
-                        <p>Telefones dos hospitais da região de Ubá.</p>
-                        <a href="#" class="btn">Ver informações</a>
+                        <img src="images/4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Silveira Drogarias</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </section>
+            <!-- Mes de Outubro -->
 
-        <!-- Fim dos cards com as utilidades -->
+            <section class="outubro">
+            <div class="row p-2">
+                <h2 class="display-3 py-2">Mês de Outubro</h2>
+
+                <!-- Primeira semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+                    <div class="card">
+                        <img src="images/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Santo Antônio</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- segunda semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2 ">
+                    <div class="card">
+                        <img src="images/2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Vila Tereza</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- terceira semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2 ">
+                    <div class="card">
+                        <img src="images/3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Silveira Drogarias</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- quarta semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2 ">
+                    <div class="card">
+                        <img src="images/4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Silveira Drogarias</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+            <!-- Mes de Novembro -->
+            <section class="novembro">
+            <div class="row p-2">
+                <h2 class="display-3 py-2">Mês de Novembro</h2>
+
+                <!-- Primeira semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+                    <div class="card">
+                        <img src="images/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Santo Antônio</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- segunda semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2 ">
+                    <div class="card">
+                        <img src="images/2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Vila Tereza</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- terceira semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2 ">
+                    <div class="card">
+                        <img src="images/3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Silveira Drogarias</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- quarta semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2 ">
+                    <div class="card">
+                        <img src="images/4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Silveira Drogarias</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+            <!-- Mes de Dezembro -->
+
+            <section class="dezembro">
+            <div class="row p-2">
+                <h2 class="display-3 py-2">Mês de Dezembro</h2>
+
+                <!-- Primeira semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+                    <div class="card">
+                        <img src="images/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Santo Antônio</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- segunda semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2 ">
+                    <div class="card">
+                        <img src="images/2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Vila Tereza</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- terceira semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2 ">
+                    <div class="card">
+                        <img src="images/3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Silveira Drogarias</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- quarta semana -->
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2 ">
+                    <div class="card">
+                        <img src="images/4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Silveira Drogarias</h5>
+                            <p class="card-text">Dia de Plantão: <strong> 20/08/23</strong></p>
+                            <a href="tel:+553235771111" class="btn btn-primary">(32)3577-1111</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
     </main>
+
     <footer>
-        footer
+        <div class="row bg-dark">
+            <div class="col-md-6 text-center py-4">
+                 <span>
+                <p> &copy; Rafael R. Siliva</p>
+            </span>
+            </div>
+            <div class="col-md-6 text-center py-4">
+                <span>
+               <p>Deseja criar um site? Entre em contato.<a href="tel:+5532998083600">(32) 9 9808-3600</a></p>
+               
+           </span>
+           </div>
+        </div>
     </footer>
 
-    <script src="./assets/js/menu.js"></script>
-    <script src="./assets/js/slideshow.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
